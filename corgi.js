@@ -6,7 +6,7 @@
 (function() {
     function makeCorgi(mantle) {
 
-    const corgi = ({
+    return ({
         lexer: new (class extends mantle.lexer.Lexer {
             constructor() {
                 super(
