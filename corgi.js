@@ -4,6 +4,8 @@
 //
 
 (function() {
+    function makeCorgi(mantle) {
+
     const corgi = ({
         lexer: new (class extends mantle.lexer.Lexer {
             constructor() {
@@ -158,5 +160,12 @@
         }
     });
 
-    this.corgi = corgi;
+    }
+
+    if (typeof module !== undefined && 'exports' in module) {
+        module.exports = makeCorgi(require('mantle.js'));
+    }
+    else {
+        this.corgi = makeCorgi(mantle);
+    }
 })();

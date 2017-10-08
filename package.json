@@ -1,0 +1,13 @@
+{
+  "name": "corgi-lang",
+  "version": "1.0.1",
+  "description": "An HTML preprocessor built for structure and style",
+  "main": "index.js",
+  "repository": "https://github.com/corgi-lang/corgi.git",
+  "author": "Nektro <nektromc@gmail.com>",
+  "license": "Apache 2",
+  "private": false,
+  "dependencies": {
+    "mantle.js": "^1.0.0"
+  }
+}
