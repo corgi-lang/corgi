@@ -117,6 +117,7 @@
             let a,b,c,d;
 
             switch (type) {
+                case 'DocumentEmpty':
                 case 'Document':
                 case 'Children': {
                     return (value.map((x) => { return this.compileExpr(x); }).join(''));
@@ -162,7 +163,7 @@
 
     }
 
-    if (typeof module !== undefined && 'exports' in module) {
+    if (typeof module !== 'undefined' && 'exports' in module) {
         module.exports = makeCorgi(require('mantle.js'));
     }
     else {
