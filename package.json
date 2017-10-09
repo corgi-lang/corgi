@@ -1,6 +1,6 @@
 {
   "name": "corgi-lang",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An HTML preprocessor built for structure and style",
   "main": "index.js",
   "repository": "https://github.com/corgi-lang/corgi.git",
@@ -8,6 +8,6 @@
   "license": "Apache-2.0",
   "private": false,
   "dependencies": {
-    "mantle.js": "^1.0.1"
+    "mantle.js": "^1.0.2"
   }
 }
