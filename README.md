@@ -10,6 +10,16 @@ on the web:
 <script src="path/to/corgi.js"></script>
 ```
 
+via npm:
+```
+$ npm install --save corgi-lang
+```
+
+via yarn:
+```
+$ yarn add corgi-lang
+```
+
 ## Basic Usage
 
 ```corgi
@@ -31,12 +41,23 @@ html[lang="en"](
 ```
 
 ```js
+// web_app.js
 fetch('document.corgi')
 .then((response) => {
     return response.text();
 })
 .then((text) => {
-    const html = mantle.compile(text);
+    const html = corgi.compile(text);
+})
+```
+
+```js
+// node_app.js
+const const = require('corgi-lang');
+const fs = require('fs');
+
+fs.readFile('settings.corgi', 'utf8', function(err, data) {
+    const html = corgi.compile(data);
 })
 ```
 
