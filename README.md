@@ -11,12 +11,12 @@ on the web:
 ```
 
 via npm:
-```
+```bash
 $ npm install --save corgi-lang
 ```
 
 via yarn:
-```
+```bash
 $ yarn add corgi-lang
 ```
 
