@@ -14,7 +14,7 @@
                     ['[',']','=',',','(',')'],
                     ['"'],
                     true,
-                    false
+                    true
                 );
             }
             isValidVarChar(c) {
