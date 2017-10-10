@@ -1,0 +1,77 @@
+(
+    div[class="container"](
+        header(
+            div[class="flex-table"](
+                div(
+                    div(
+                        img[src="logo.png",width="120",height="120",alt="Corgi logo"]
+                        // https://cliparts.zone/clipart/1345875
+                    )
+                    div(
+                        h1("Introducing Corgi")
+                    )
+                )
+            )
+        )
+        hr
+        nav(
+            a[href="#/"]("English")
+        )
+        hr
+        main(
+            div[class="flex-table"](
+                div(
+                    div(
+                        p("Corgi is a brand new HTML pre-processor built for style and structure.")
+                    )
+                    div(
+                        div[class="box"](
+                            dl(
+                                dt(i("Document"))
+                                dd(i("Doctype")" "i("Element"))
+                                dd(i("Children"))
+                                //
+                                dt(i("Element"))
+                                dd(i("Identifier"))
+                                dd(i("Identifier")" "i("AttrList"))
+                                dd(i("Identifier")" "i("AttrList")" "i("Children"))
+                                //
+                                dt(i("Children"))
+                                dd("( "i("Nodes")" )")
+                                //
+                                dt(i("AttrList"))
+                                dd("[ "i("Attrs")" ]")
+                                //
+                                dt(i("Nodes"))
+                                dd(i("Value"))
+                                dd(i("Value")" "i("Nodes"))
+                                //
+                                dt(i("Attrs"))
+                                dd(i("Attr"))
+                                dd(i("Attr")", "i("Attrs"))
+                                //
+                                dt(i("Value"))
+                                dd(i("Element"))
+                                dd("String")
+                                //
+                                dt(i("Attr"))
+                                dd(i("Identifier")" = "i("String"))
+                                //
+                                dt(i("String"))
+                                dd("\" \"")
+                                dd("\" "i("Chars")" \"")
+                                //
+                                dt(i("Chars"))
+                                dd(i("Char"))
+                                dd(i("Char")" "i("Chars"))
+                                //
+                                dt(i("Char"))
+                                dd(i("Any-Unicode-Character"))
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
+)
