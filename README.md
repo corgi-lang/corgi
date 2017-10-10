@@ -56,7 +56,7 @@ fetch('document.corgi')
 const const = require('corgi-lang');
 const fs = require('fs');
 
-fs.readFile('settings.corgi', 'utf8', function(err, data) {
+fs.readFile('document.corgi', 'utf8', function(err, data) {
     const html = corgi.compile(data);
 })
 ```
