@@ -63,7 +63,7 @@ fs.readFile('document.corgi', 'utf8', function(err, data) {
 
 ## Full Documentation
 
-Coming Soon!
+https://corgi-lang.github.io/corgi/
 
 ## Credits
 - Made with mantle.js - https://github.com/Nektro/mantle.js
