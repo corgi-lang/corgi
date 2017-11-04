@@ -2,6 +2,8 @@
 
 Corgi - the HTML Preprocessor built for style and structure, brought to you by [mantle.js](https://github.com/Nektro/mantle.js).
 
+[![NPM](https://nodei.co/npm/corgi-lang.png?downloads=true)](https://nodei.co/npm/corgi-lang/)
+
 ## Installation
 
 on the web:
